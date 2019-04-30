@@ -1,0 +1,23 @@
+{
+  "name": "fileMetadataMicroservice",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.5.0"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devstart": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

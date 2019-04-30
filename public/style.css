@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1.5em;
+}
+
+ol li {
+    list-style-position: inside;
+    font-size: 1.1em;
+    margin-top: 0.1em;
+}
+
+#submitBox {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+#innerSubmit {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    text-align: left;
+    padding-left: 2em;
+}
+
+#uploadButton {
+    margin-top: 1em;
+    width: 20em;
+}
+
+  #footer {
+    margin-top: 5em;
+}
