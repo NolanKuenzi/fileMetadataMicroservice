@@ -1,5 +1,5 @@
 {
-  "name": "fileMetadataMicroservice",
+  "name": "file_metadata_microservice",
   "version": "1.0.0",
   "engines": {
     "node": "10.5.0"
