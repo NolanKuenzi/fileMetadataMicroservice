@@ -12,10 +12,10 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.post('/api/fileanalyse', upload.single('upfile'), function(req, res) {
   if (req.file === undefined) {
-    res.send('No file chosen');
+    res.status(400).send('No file chosen');
     return;
   } 
-  res.json({name: req.file.originalname, type: req.file.mimetype, size: req.file.size});
+  res.status(200).json({name: req.file.originalname, type: req.file.mimetype, size: req.file.size});
 });
 
 const port = process.env.PORT || 3000;
